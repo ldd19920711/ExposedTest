@@ -1,0 +1,29 @@
+GET http://localhost:8081/user/selectAll
+Accept: application/json
+
+###
+POST http://localhost:8081/user/updateUser
+Content-Type: application/json
+
+{
+  "id": 9,
+  "name": "wangshuai plus"
+}
+
+###
+POST http://localhost:8081/user/deleteUser
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+###
+POST http://localhost:8081/user/createUser
+Content-Type: application/json
+
+{
+  "name": "wangshuai"
+}
+
+###
